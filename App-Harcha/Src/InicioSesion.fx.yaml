@@ -49,7 +49,7 @@ InicioSesion As screen:
             Set(CorreoIngresado, TxtCorreo.Text)/
             Set(ContraseñaIngresada, TxtContraseña.Text)/
             Set(UsuarioActual, LookUp(ListaUsuarios, CorreoUsuario = CorreoIngresado && ClaveUsuario = ContraseñaIngresada))/
-            Notify(UsuarioActual.NombreUsuario, NotificationType.Information)
+            Notify(UsuarioActual.CorreoUsuario, NotificationType.Information)
         Text: ="Iniciar"
         X: =950
         Y: =550
