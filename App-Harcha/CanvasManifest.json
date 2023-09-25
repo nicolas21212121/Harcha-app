@@ -132,7 +132,7 @@
     "UserLocale": "es-ES"
   },
   "ScreenOrder": [
-    "Screen1",
-    "Screen2"
+    "InicioSesion",
+    "Menu"
   ]
 }

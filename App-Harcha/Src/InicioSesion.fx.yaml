@@ -1,0 +1,52 @@
+InicioSesion As screen:
+
+    Label1 As label:
+        Height: =113
+        Size: =30
+        Text: ="Iniciar Sesión"
+        Width: =296
+        X: =882
+        Y: =129
+        ZIndex: =1
+
+    LblCorreo As label:
+        Height: =32
+        Size: =17
+        Text: ="Correo Electrónico"
+        Width: =254
+        X: =865
+        Y: =272
+        ZIndex: =2
+
+    LblContraseña As label:
+        Height: =32
+        Size: =17
+        Text: ="Contraseña"
+        Width: =254
+        X: =870
+        Y: =403
+        ZIndex: =3
+
+    TxtCorreo As text:
+        Default: =""
+        HintText: ="aaa@aaa.aa"
+        X: =870
+        Y: =332
+        ZIndex: =4
+
+    TxtContraseña As text:
+        Default: =""
+        HintText: ="aaa123"
+        Mode: =TextMode.Password
+        X: =870
+        Y: =466
+        ZIndex: =5
+
+    Button1 As button:
+        OnSelect: |-
+            =If(IsBlank(TxtCorreo.Text) Or IsBlank(TxtContraseña.Text),Notify("Rellene las celdas", NotificationType.Error),If(!IsBlank(LookUp(ListaUsuarios,CorreoUsuario = TxtCorreo.Text And ClaveUsuario = TxtContraseña.Text).CorreoUsuario),Notify("Acceso exitoso",NotificationType.Success)And Navigate(Menu),UpdateContext({ ShowForgetMessage: true });Notify("Usuario no encontrado", NotificationType.Error),Reset(TxtCorreo) And Reset(TxtContraseña)))
+        Text: ="Iniciar"
+        X: =950
+        Y: =550
+        ZIndex: =6
+
