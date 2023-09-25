@@ -83,9 +83,3 @@ Screen1 As screen:
             Width: =4
             ZIndex: =6
 
-    Label1 As label:
-        Text: ="Hola"
-        X: =1008
-        Y: =390
-        ZIndex: =2
-
