@@ -1,81 +1,26 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Button1": 12,
-    "Host": 3,
-    "InicioSesion": 4,
-    "Label1": 7,
-    "LblContraseña": 9,
-    "LblCorreo": 8,
-    "Screen2": 5,
-    "TxtContraseña": 11,
-    "TxtCorreo": 10
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/25/2023 15:15:42",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {
-    "a5b7eced-c681-4c93-a214-c3d05743c003": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/a38b0d819fc649f5a1075be767075f09\""
-  },
+  "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {
-    "CustomGallerySample": 0,
-    "InicioSesion_1": 1
-  },
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "button": 2,
-    "label": 0,
-    "text": 1
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Button1": {},
-    "Host": {},
-    "InicioSesion": {},
-    "Label1": {},
-    "LblContraseña": {},
-    "LblCorreo": {},
-    "Screen2": {},
-    "TxtContraseña": {},
-    "TxtCorreo": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Button1": 5,
-    "Host": 0,
-    "InicioSesion": 3,
-    "Label1": 0,
-    "LblContraseña": 3,
-    "LblCorreo": 1,
-    "Screen2": 4,
-    "TxtContraseña": 4,
-    "TxtCorreo": 2
-  },
-  "ResourcesJsonIndices": {
-    "Image-SampleImage": 0
-  },
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0046276,
-    "ControlCount": {
-      "label": 1,
-      "screen": 2,
-      "text": 1
-    },
-    "DeserializationLoadTime": 0.2430112
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
