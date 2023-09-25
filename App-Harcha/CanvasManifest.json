@@ -95,7 +95,7 @@
       "useguiddatatypes": true,
       "usenonblockingonstartrule": true,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "BindingErrorCount": 0,
@@ -114,7 +114,7 @@
     "Id": "44bb552a-c921-4558-a359-2d5c625808cf",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "prueba de app",
     "OriginatingVersion": "1.334",
     "ParserErrorCount": 0,
