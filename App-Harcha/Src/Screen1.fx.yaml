@@ -1,8 +1,2 @@
 Screen1 As screen:
 
-    Label1 As label:
-        Text: ="Hola"
-        X: =1008
-        Y: =390
-        ZIndex: =2
-
