@@ -7,10 +7,14 @@
       "RevisionNumber": 1
     },
     "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Datos adjuntos",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{ContentType}": "Tipo de contenido",
+      "{ContentType}#Id": "Tipo de contenido Id",
       "{FilenameWithExtension}": "Nombre de archivo con extensión",
       "{FullPath}": "Ruta de acceso completa",
+      "{HasAttachments}": "Tiene datos adjuntos",
       "{Identifier}": "Identificador",
-      "{IsCheckedOut}": "Desprotegido",
       "{IsFolder}": "EsCarpeta",
       "{Link}": "Vinculo al elemento",
       "{ModerationComment}": "Comentarios asociados con la aprobación de contenido de este elemento de lista",
@@ -23,24 +27,22 @@
       "{VersionNumber}": "Número de versión",
       "Author": "Creado por",
       "Author#Claims": "Creado por Claims",
-      "CheckoutUser": "Desprotegido para",
-      "CheckoutUser#Claims": "Desprotegido para Claims",
+      "ClaveUsuario": "ClaveUsuario",
       "ComplianceAssetId": "Id. de activo de cumplimiento normativo",
       "Created": "Creado",
       "Editor": "Modificado por",
       "Editor#Claims": "Modificado por Claims",
       "ID": "ID",
       "Modified": "Modificado",
+      "NombreUsuario": "CorreoUsuario",
       "OData__ColorTag": "Etiqueta de color",
-      "OData__DisplayName": "Confidencialidad",
-      "OData__ExtendedDescription": "Descripción",
       "Title": "Título"
     },
     "DatasetName": "https://alumnosucncl.sharepoint.com/sites/Harcha",
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "InicioSesion_1",
+    "Name": "ListaUsuarios",
     "Type": "ConnectedDataSourceInfo"
   }
 ]

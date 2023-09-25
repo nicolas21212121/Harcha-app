@@ -5,8 +5,8 @@ InicioSesion As screen:
         Size: =30
         Text: ="Iniciar Sesión"
         Width: =296
-        X: =907
-        Y: =102
+        X: =882
+        Y: =129
         ZIndex: =1
 
     LblCorreo As label:
@@ -28,21 +28,31 @@ InicioSesion As screen:
         ZIndex: =3
 
     TxtCorreo As text:
-        Default: ="Entrada de texto"
+        Default: =""
         HintText: ="aaa@aaa.aa"
         X: =870
         Y: =332
         ZIndex: =4
 
     TxtContraseña As text:
-        Default: ="Entrada de texto"
+        Default: =""
+        HintText: ="aaa123"
+        Mode: =TextMode.Password
         X: =870
         Y: =466
         ZIndex: =5
 
     Button1 As button:
+        OnSelect: |-
+            =If(IsBlank(TxtCorreo.Text) Or IsBlank(TxtContraseña.Text),Notify("Rellene las celdas", NotificationType.Error),If(!IsBlank(LookUp(ListaUsuarios,CorreoUsuario = TxtCorreo.Text And ClaveUsuario = TxtContraseña.Text).CorreoUsuario),Notify("Acceso exitoso",NotificationType.Success)And Navigate(Menu),UpdateContext({ ShowForgetMessage: true });Notify("Usuario no encontrado", NotificationType.Error),Reset(TxtCorreo) And Reset(TxtContraseña)))
         Text: ="Iniciar"
-        X: =975
-        Y: =618
+        X: =950
+        Y: =550
         ZIndex: =6
+
+    Image1 As image:
+        Height: =768
+        Image: ='Logo Harcha'
+        Width: =764
+        ZIndex: =7
 

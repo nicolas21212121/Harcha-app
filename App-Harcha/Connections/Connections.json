@@ -8,14 +8,14 @@
     "datasets": {
       "https://alumnosucncl.sharepoint.com/sites/Harcha": {
         "dataSources": {
-          "InicioSesion_1": {
-            "tableName": "d75f5d49-5055-48e0-8b79-621a604aca79"
+          "ListaUsuarios": {
+            "tableName": "380f66d3-aee6-472c-8762-60a3f34924eb"
           }
         }
       }
     },
     "dataSources": [
-      "InicioSesion_1"
+      "ListaUsuarios"
     ],
     "dependencies": {},
     "dependents": [],
