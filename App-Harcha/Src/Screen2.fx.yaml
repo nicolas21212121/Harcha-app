@@ -1,0 +1,11 @@
+Screen2 As screen:
+
+    Label1 As label:
+        Height: =147
+        Size: =34
+        Text: ="HOLA "
+        Width: =175
+        X: =602
+        Y: =264
+        ZIndex: =1
+
