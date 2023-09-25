@@ -50,9 +50,3 @@ InicioSesion As screen:
         Y: =550
         ZIndex: =6
 
-    Image1 As image:
-        Height: =768
-        Image: ='Logo Harcha'
-        Width: =764
-        ZIndex: =7
-
