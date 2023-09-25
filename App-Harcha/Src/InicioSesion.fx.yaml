@@ -1,0 +1,48 @@
+InicioSesion As screen:
+
+    Label1 As label:
+        Height: =113
+        Size: =30
+        Text: ="Iniciar Sesión"
+        Width: =296
+        X: =907
+        Y: =102
+        ZIndex: =1
+
+    LblCorreo As label:
+        Height: =32
+        Size: =17
+        Text: ="Correo Electrónico"
+        Width: =254
+        X: =865
+        Y: =272
+        ZIndex: =2
+
+    LblContraseña As label:
+        Height: =32
+        Size: =17
+        Text: ="Contraseña"
+        Width: =254
+        X: =870
+        Y: =403
+        ZIndex: =3
+
+    TxtCorreo As text:
+        Default: ="Entrada de texto"
+        HintText: ="aaa@aaa.aa"
+        X: =870
+        Y: =332
+        ZIndex: =4
+
+    TxtContraseña As text:
+        Default: ="Entrada de texto"
+        X: =870
+        Y: =466
+        ZIndex: =5
+
+    Button1 As button:
+        Text: ="Iniciar"
+        X: =975
+        Y: =618
+        ZIndex: =6
+

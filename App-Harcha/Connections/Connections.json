@@ -1,1 +1,24 @@
-{}
+{
+  "a5b7eced-c681-4c93-a214-c3d05743c003": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1654/1.0.1654.3414/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://alumnosucncl.sharepoint.com/sites/Harcha": {
+        "dataSources": {
+          "InicioSesion_1": {
+            "tableName": "d75f5d49-5055-48e0-8b79-621a604aca79"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "InicioSesion_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "a5b7eced-c681-4c93-a214-c3d05743c003"
+  }
+}
