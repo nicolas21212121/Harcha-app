@@ -3,29 +3,39 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 10,
+    "BtnCrearObra": 15,
+    "BtnDashboard": 13,
+    "BtnGestion": 17,
+    "BtnIngreso": 14,
+    "BtnReportes": 16,
+    "Button1": 11,
     "Host": 3,
-    "InicioSesion": 4,
-    "Label1": 5,
-    "LblContraseña": 8,
-    "LblCorreo": 6,
-    "Menu": 11,
-    "TxtContraseña": 9,
-    "TxtCorreo": 7
+    "Image1": 12,
+    "Image1_1": 19,
+    "Image3": 20,
+    "InicioSesion": 5,
+    "Label1": 6,
+    "LblCargo": 23,
+    "LblContraseña": 9,
+    "LblCorreo": 7,
+    "LblNombre": 22,
+    "Menu": 4,
+    "TxtContraseña": 10,
+    "TxtCorreo": 8
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/25/2023 17:30:06",
+  "HeaderLastSavedDateTimeUTC": "09/25/2023 21:50:01",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "a5b7eced-c681-4c93-a214-c3d05743c003": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/45284efd54aa4ae290cf832d6fbd336f\""
+    "a679eebc-b7c9-4cd7-bf60-6cf724cd820a": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/a38b0d819fc649f5a1075be767075f09\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
-    "Logo Harcha": "0001.png"
+    "Logo Harcha": "f646e1e8-9b66-4801-a31b-b868fa292562.png"
   },
   "LocalResourceRootPaths": {
-    "Logo Harcha": "https://docserverpwaprodwus.blob.core.windows.net/6ce6ba25-602d-4fa0-96d8-2ac26e1619f7-1/resource/Assets0Images00001.png?sv=2018-03-28&sr=b&sig=LPWWUBYIaiCy9KgCp3MOhNsyQw6UCloz%2FGBrpZz2T28%3D&spr=https&se=2023-09-26T16%3A23%3A42Z&sp=r"
+    "Logo Harcha": "https://docserverpwaprodwus.blob.core.windows.net/cdc7da92-edb1-4eef-a161-aa95fe75e3a3-1/resource/399c20bd-fe81-449b-8d84-1564ac1b5e70.png?sv=2018-03-28&sr=b&sig=Za%2BsPbRcVByztRnIA6hvTOTa6RUpeEnQuvW2A7Ot7Mw%3D&spr=https&se=2023-09-26T20%3A52%3A15Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -38,17 +48,28 @@
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "button": 2,
-    "label": 0,
-    "text": 1
+    "image": 0,
+    "label": 1,
+    "text": 3
   },
   "OverridablePropertiesEntry": {
     "App": {},
+    "BtnCrearObra": {},
+    "BtnDashboard": {},
+    "BtnGestion": {},
+    "BtnIngreso": {},
+    "BtnReportes": {},
     "Button1": {},
     "Host": {},
+    "Image1": {},
+    "Image1_1": {},
+    "Image3": {},
     "InicioSesion": {},
     "Label1": {},
+    "LblCargo": {},
     "LblContraseña": {},
     "LblCorreo": {},
+    "LblNombre": {},
     "Menu": {},
     "TxtContraseña": {},
     "TxtCorreo": {}
@@ -57,15 +78,25 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Button1": 9,
+    "BtnCrearObra": 12,
+    "BtnDashboard": 10,
+    "BtnGestion": 14,
+    "BtnIngreso": 11,
+    "BtnReportes": 13,
+    "Button1": 6,
     "Host": 0,
+    "Image1": 0,
+    "Image1_1": 15,
+    "Image3": 7,
     "InicioSesion": 3,
-    "Label1": 4,
-    "LblContraseña": 7,
-    "LblCorreo": 5,
+    "Label1": 1,
+    "LblCargo": 9,
+    "LblContraseña": 4,
+    "LblCorreo": 2,
+    "LblNombre": 8,
     "Menu": 10,
-    "TxtContraseña": 8,
-    "TxtCorreo": 6
+    "TxtContraseña": 5,
+    "TxtCorreo": 3
   },
   "ResourcesJsonIndices": {
     "Image-Logo Harcha": 1,
@@ -74,14 +105,15 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0167239,
+    "AnalysisLoadTime": 0.0913385,
     "ControlCount": {
-      "button": 1,
-      "label": 3,
+      "button": 5,
+      "image": 1,
+      "label": 4,
       "screen": 2,
       "text": 2
     },
-    "DeserializationLoadTime": 0.3579397
+    "DeserializationLoadTime": 1.262476
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

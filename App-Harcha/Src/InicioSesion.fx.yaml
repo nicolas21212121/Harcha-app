@@ -43,10 +43,22 @@ InicioSesion As screen:
         ZIndex: =5
 
     Button1 As button:
-        OnSelect: |-
-            =If(IsBlank(TxtCorreo.Text) Or IsBlank(TxtContraseña.Text),Notify("Rellene las celdas", NotificationType.Error),If(!IsBlank(LookUp(ListaUsuarios,CorreoUsuario = TxtCorreo.Text And ClaveUsuario = TxtContraseña.Text).CorreoUsuario),Notify("Acceso exitoso",NotificationType.Success)And Navigate(Menu),UpdateContext({ ShowForgetMessage: true });Notify("Usuario no encontrado", NotificationType.Error),Reset(TxtCorreo) And Reset(TxtContraseña)))
+        OnSelect: |
+            =If(!IsBlank(LookUp(ListaUsuarios,CorreoUsuario = TxtCorreo.Text And ClaveUsuario = TxtContraseña.Text).CorreoUsuario),Notify("Acceso exitoso",NotificationType.Success)And Navigate(Menu),UpdateContext({ ShowForgetMessage: true });Notify("Usuario no encontrado", NotificationType.Error),Reset(TxtCorreo) And Reset(TxtContraseña))/
+            
+            Set(CorreoIngresado, TxtCorreo.Text)/
+            Set(ContraseñaIngresada, TxtContraseña.Text)/
+            Set(UsuarioActual, LookUp(ListaUsuarios, CorreoUsuario = CorreoIngresado && ClaveUsuario = ContraseñaIngresada))/
+            Notify(UsuarioActual.NombreUsuario, NotificationType.Information)
         Text: ="Iniciar"
         X: =950
         Y: =550
         ZIndex: =6
+
+    Image1 As image:
+        Height: =768
+        Image: ='Logo Harcha'
+        ImagePosition: =ImagePosition.Fill
+        Width: =787
+        ZIndex: =7
 

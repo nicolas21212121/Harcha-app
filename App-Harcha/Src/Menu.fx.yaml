@@ -1,2 +1,69 @@
 Menu As screen:
 
+    BtnDashboard As button:
+        BorderThickness: =0
+        Height: =54
+        PressedBorderColor: =RGBA(56, 96, 178, 1)
+        Text: ="Dashboard"
+        Width: =217
+        Y: =295
+        ZIndex: =1
+
+    BtnIngreso As button:
+        Height: =54
+        Text: ="Ingreso información"
+        Width: =217
+        Y: =349
+        ZIndex: =2
+
+    BtnCrearObra As button:
+        Height: =54
+        Text: ="Crear nueva obra"
+        Width: =217
+        Y: =403
+        ZIndex: =3
+
+    BtnReportes As button:
+        Height: =54
+        Text: ="Reportes"
+        Width: =217
+        Y: =457
+        ZIndex: =4
+
+    BtnGestion As button:
+        Height: =54
+        Text: ="Gestión de proyecto"
+        Width: =217
+        Y: =511
+        ZIndex: =5
+
+    Image1_1 As image:
+        Height: =124
+        Image: ='Logo Harcha'
+        ImagePosition: =ImagePosition.Fill
+        Width: =213
+        Y: =643
+        ZIndex: =6
+
+    Image3 As image:
+        Height: =160
+        Width: =213
+        ZIndex: =7
+
+    LblNombre As label:
+        Align: =Align.Center
+        Height: =35
+        OnSelect: =
+        Text: =//LlbNombre.Text=UsuarioActual.NombreUsuario
+        Width: =212
+        Y: =190
+        ZIndex: =8
+
+    LblCargo As label:
+        Align: =Align.Center
+        Height: =35
+        Text: ="Cargo"
+        Width: =213
+        Y: =231
+        ZIndex: =9
+
