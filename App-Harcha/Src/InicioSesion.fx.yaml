@@ -43,13 +43,14 @@ InicioSesion As screen:
         ZIndex: =5
 
     Button1 As button:
-        OnSelect: |
+        OnSelect: |-
             =If(!IsBlank(LookUp(ListaUsuarios,CorreoUsuario = TxtCorreo.Text And ClaveUsuario = TxtContraseña.Text).CorreoUsuario),Notify("Acceso exitoso",NotificationType.Success)And Navigate(Menu),UpdateContext({ ShowForgetMessage: true });Notify("Usuario no encontrado", NotificationType.Error),Reset(TxtCorreo) And Reset(TxtContraseña))/
             
             Set(CorreoIngresado, TxtCorreo.Text)/
             Set(ContraseñaIngresada, TxtContraseña.Text)/
-            Set(UsuarioActual, LookUp(ListaUsuarios, CorreoUsuario = CorreoIngresado && ClaveUsuario = ContraseñaIngresada))/
-            Notify(UsuarioActual.CorreoUsuario, NotificationType.Information)
+            Set(Nombre, LookUp(ListaUsuarios, CorreoUsuario = CorreoIngresado && ClaveUsuario = ContraseñaIngresada).'NombreUsuario (Nombre)')/
+            Set(Apellido, LookUp(ListaUsuarios, CorreoUsuario = CorreoIngresado && ClaveUsuario = ContraseñaIngresada).ApellidoUsuario)/
+            Set(Cargo, LookUp(ListaUsuarios, CorreoUsuario = CorreoIngresado && ClaveUsuario = ContraseñaIngresada).CargoUsuario)
         Text: ="Iniciar"
         X: =950
         Y: =550
