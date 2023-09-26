@@ -111,6 +111,7 @@ Menu As screen:
         Height: =160
         Image: |
             =LookUp(ListaUsuarios, CorreoUsuario = CorreoIngresado).FotoUsuario
-        Width: =213
+        Width: =217
+        Y: =1
         ZIndex: =11
 
